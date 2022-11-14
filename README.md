@@ -1,2 +1,3 @@
-# 365-algorithm-
-Desafio de fazer um algoritmo por dia, por 365 dias seguidos 
+# Desafo 365 Algoritmos
+
+Repositório com todos 365 algoritmos que desenvolvir no desafio 
