@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seja Bem Vindo</title>
+    </head>
+    <body>
+        <h1>Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas</h1>
+        <h2 id="nome"></h2>
+        <script>
+            var nome = window.prompt("Qual seu Nome?");
+            window.alert("Seja bem Vindo(a), " + nome);
+            document.getElementById("nome").innerHTML = nome;
+        </script>
+    </body>
+</html>
