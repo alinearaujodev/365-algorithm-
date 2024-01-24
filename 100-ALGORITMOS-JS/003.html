@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Algoritmo 003 em JS</title>
+    </head>
+
+    <body>
+        <h1>Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem</h1>
+        <h3 id="nome">Nome do funcionário: </h3>
+        <h4 id="salario"></h4>
+        <script>
+            var funcionario = prompt("Nome do Funcionário: ");
+            var salario = prompt("Salário: ");
+            document.getElementById("nome").innerHTML = funcionario;
+            document.getElementById("salario").innerHTML = salario;
+        </script>
+    </body>
+</html>
